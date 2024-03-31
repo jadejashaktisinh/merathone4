@@ -1,0 +1,642 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.row{
+    margin: 0px;
+    padding: 0px;
+}
+.container-fluid{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-image: url(background.jpg);
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
+    
+}
+.navbar{
+    color: white;
+    margin-top: 2rem;
+}
+.nav-li ul{
+    list-style: none;
+    margin-bottom: 0px;
+
+}
+.nav-li{
+        font-size: 0.7rem;
+        padding: 0px;
+        cursor: pointer;
+
+}
+.nav-li ul li p{
+    margin-bottom: 0px;
+}
+.nav-btn p{
+    background-color: rgb(250, 99, 43);
+    padding: 0.5rem 0.5rem;
+    border-radius: 2rem;
+    margin-bottom: 0px;
+    color: white;
+    font-weight: 700;
+    width: fit-content;
+    cursor: pointer;
+
+}
+
+
+.nav-content{
+    
+        margin-top: 4.5rem;
+}
+.nav-con{
+    padding: 0px;
+}
+.nav-text p{
+    font-size: 2.3rem;
+    color: white;
+    margin-bottom: 0px;
+}
+.nav-para p{
+    color: white;
+    font-size: 0.7rem;
+    margin-top: 1.5rem;
+    width: 18rem;
+}
+.first-msg img{
+        height: 2.5rem;
+        position: absolute;
+        width: 2.5rem;
+        top: 8.5rem;
+        left: -3rem;
+        border-radius: 50%;
+}
+.msg-main{
+    margin-top: 10rem;
+    margin-left: -5rem;
+}
+.msges{
+    background-color: purple;
+    color: white;
+    font-size: 0.5rem;
+    width: 17rem;
+    border-radius: 50px 50px  50px 0px;
+}
+.msges2{
+    background-color: rgb(233, 31, 142);
+    color: white;
+    margin-left: 3rem;
+    font-size: 0.5rem;
+    width: 17rem;
+    border-radius: 50px 50px 0px 50px;
+}
+.msges3{
+    background-color:  rgb(250, 99, 43);
+    color: white;
+    margin-left: -1rem;
+    font-size: 0.5rem;
+    width: 17rem;
+    border-radius: 50px 50px 50px 0px;
+}
+.msges p{
+    padding: 1rem 1rem;
+}
+.msges2 p{
+    padding: 1rem 1rem;
+}
+.msges3 p{
+    padding: 1rem 1rem;
+}
+.nav-footer-con{
+    top: 2.5rem;
+    position: relative;
+    border: 1px solid rgb(229, 236, 236);
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    width: 66%;
+}
+.nav-footer-con span{
+    font-size: 0.5rem;
+}
+
+.nav-footer-con p{
+    font-size: 0.9rem;
+    margin-bottom: 0px;
+}
+.nav-footer-content{
+    padding: 1rem 1rem;
+}
+
+.about-us-div{
+    margin-top: 6rem;
+}
+.about-us-con{
+    margin-top: 4rem;
+    margin-bottom: 10rem;
+}
+.about-us-con p{
+    font-size: 2rem;
+    width: 15rem;
+    font-weight: 700;
+}
+.about-us-con span{
+    display: block;
+    font-size: 1.2rem;
+    width: 15rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+
+}
+.about-us-para p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    width: 23rem;
+}
+.about-us-con .nav-btn{
+    padding: 0px;
+}
+.about-us-con .nav-btn p{
+        font-size: 1rem;
+        width: fit-content;
+}
+.pattr img{
+    position: absolute;
+    height: 22rem;
+    width: 22rem;
+    left: 8.5rem;
+}
+.old-women img{
+    left: -2.5rem;
+    width: 13rem;
+    border-radius: 20px;
+    position: absolute;
+    height: 17rem;
+}
+.yellow-girl img{
+    position: absolute;
+    border-radius: 20px;
+    top: 9rem;
+    left: 12rem;
+    width: 13rem;
+    height: 17rem;
+}
+.young-women img{
+    position: absolute;
+    border-radius: 20px;
+    top: 18rem;
+    left: -6rem;
+    width: 17rem;
+    height: 12rem;
+}
+
+
+.how-its-work-con{
+    background-image: url(pg3-background-min.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.how-its-work-con-content{
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+.how-its-work-con-content-top p{
+    font-size: 2rem;
+}
+.how-its-work-con-content-main{
+    margin-top: 2rem;
+}
+.how-its-work-menu{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-right: 2rem;
+    
+}
+.how-its-work-menu span{
+        font-size: 1.3rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+}
+.how-its-work-menu .how-its-work-para{
+    font-size: 0.6rem;
+    width: 8rem;
+}
+.read-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+.read-more p{
+    margin-bottom: 0px;
+    padding: 0.3rem;
+    margin-right: 0.3rem;
+}
+
+.wlf-top-con{
+    margin-top: 3rem;
+    text-align: center;
+}
+.wlf-top-con p{
+    font-size: 1.7rem;
+}
+.why-learning-flow{
+    background-color:rgb(241, 238, 238)  ;
+}
+.wlf-menu{
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    display: flex;
+    margin-bottom: 10rem;
+    flex-direction: column;
+}
+.wlf-menu span{
+    margin:1rem 0px ;
+    font-size: 1.2rem;
+    width: 10rem;
+}
+.wlf-menu .wlf-para{
+    font-size: 0.7rem;
+    width: 15em;
+}
+.wlf-foot{
+    top: 140rem;
+    left: 25vw;
+    position: absolute;
+}
+.wlf-foot-con {
+    background-color: azure;
+    border: 1px solid rgb(198, 223, 245);
+    border-radius: 50px;
+}
+.wlf-footer-content{
+    padding: 1rem 7rem 0.5rem 3rem;
+}
+.wlf-foot-con .nav-btn{
+    padding: 1rem 3rem 0.5rem 0rem;
+
+}
+.op-content{
+    background-color: rgb(234,235,241);
+    margin-top: 2rem;
+}
+.op-con{
+    margin-top: 6rem;
+    padding: 0px;
+}
+.op-con span{
+        font-weight: 600;
+        font-size: 1rem;
+}
+.op-con p{
+    font-size: 1.5rem;
+    width: fit-content;
+    margin: 2rem 0px;
+    font-weight: 800;
+}
+.op-con .op-para{
+    font-size: 0.8rem;
+    width: 30rem;
+    font-weight: 400;
+    margin: 1rem 0px;
+}
+.op-img img{
+    width: 28.5rem;
+    margin-left: 3rem;
+    margin-top: 7rem;
+    height: 20rem;
+}
+
+.ps-con {
+    background-color: rgb(187, 217, 225);
+}
+
+.ps-con img{
+    opacity: 0.2;
+    margin: 10rem 0px;
+    position: absolute;
+    height: 9rem;
+}
+.ps-main {
+    margin-top: 4rem;
+    margin-left: -6rem;
+   
+}
+.ps-main span{
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.ps-main i{
+    color: rgb(218, 218, 42);
+    font-size: 0.8rem;
+}
+.ps-main .ps-para{
+    font-weight: 700;
+    font-size: 1.5rem;
+    width: 30rem;
+}
+.ps-con{
+    overflow: hidden;
+}
+.ps-side-content{
+    opacity: 0.2;
+    box-shadow: 0px 0px 5px 1px black;
+    top: 6rem;
+    left: 15rem;
+    position: relative;
+}
+.ps-side-content i{
+    font-size: 0.7rem;
+    color: rgb(218, 218, 42);
+}
+.ps-side-content .ps-side-para{
+    font-weight: 700;
+    font-size: 1rem;
+    width: 20rem;
+}
+.ps-side-content .ps-author{
+    font-size: 0.5rem;
+}
+.ps-side-btn{
+    margin-left: 10rem;
+    margin-bottom: 4rem;
+}
+.ps-side-btn div{
+    font-size: 2rem;
+    margin-top: 10rem;
+    border: 1px solid black;
+    padding: 0.7rem 1.3rem;
+    border-radius: 50px;
+    margin-left: 1rem;
+}
+.price-text {
+    margin-top: 3rem;
+}
+.price-text p{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.price-text span{
+    
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+.price-menu{
+    background: linear-gradient(180deg, rgb(231, 227, 227) 90%, rgba(255,255,255,1) 100%);
+    margin-top: 15rem;
+    
+}
+.bronze{
+    margin-top: -10rem;
+    background-color: rgb(255, 255, 255);
+    height: fit-content;
+    box-shadow: 0px 0px 0px 1px rgb(231, 227, 227);
+    margin-right: 3rem;
+    border-radius: 30px;
+    padding: 2rem 0px 0px 0px;
+}
+.level {
+    font-size: 1rem;
+    border-radius:50px 50px 0px 50px  ;
+    border: 1px solid black;
+    padding: 0.5rem 1rem ;
+    margin-bottom: 1rem;
+}
+.bronze span{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.benefits span i{
+        font-size: 1rem;
+        background-color: orangered ;
+        border-radius: 20px 20px 20px 0px;
+        height: fit-content;
+        margin-right: 0.5rem;
+        color: white;
+        padding: 0.5rem;
+}
+.benefits span{
+        display: flex;
+        margin-bottom: 0.5rem;
+        align-items: start;
+        justify-content: start;
+        font-size: 1rem;
+}
+.benefits span p{
+    margin-bottom: 0px;
+    font-weight: 400;
+    width: 11rem;
+}
+.m-b{
+    margin-bottom: 15rem;
+}
+.priceing-foot{
+    position: relative;
+    top: -6rem;
+}
+.priceing-footer-content{
+    margin-right: 10rem;
+    width: 20rem;
+    height: 4rem;
+}
+.priceing-foot-con{
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-top: 1rem;
+    padding: 0.9rem 1rem;
+    
+}
+.p-btn{
+    padding: 0px 1rem;
+}
+.com-logo-menu{
+    margin-left: 2rem;
+}
+.com-logo-menu img{
+    margin-top: 1.5rem;
+    width: 8rem;
+    height: 3rem;
+}
+.amazone{
+    height: 3rem !important; 
+    margin-top: 2rem !important;
+}
+.coca{
+    height: 5rem !important;
+    margin-top: 0.5rem !important;
+}
+.netflix{
+    background: white !important;
+    height: 3rem !important;
+    margin-top: 1.5rem !important;
+}
+.sodex{
+    height: 3rem !important;
+    opacity: 0.5;
+}
+.slack{
+    height: 3rem !important;
+}
+.rating {
+    background-color: orangered;
+    border-radius: 50px 50px 0px 50px;
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.5rem 1rem;
+}
+.footer{
+    background-color: rgb(234,235,241);
+    margin-top: 2rem;
+
+}
+.footer-cols{
+    margin-top: 6rem;
+}
+.footer-comtent img{
+        height: 4rem;
+        margin-bottom: 3rem;
+}
+.footer-comtent .footer-para{
+    font-size: 1rem;
+    margin-bottom: 3rem;
+    font-weight: 600;
+    width: 23rem;
+}
+.footer-comtent .footer-copyright{
+    font-size: 0.7rem;
+    font-weight: 600;
+    width: 23rem;
+    margin-bottom: 0px;
+}
+.footer-comtent span{
+    font-size: 0.6rem;
+}
+.footer-list span{
+    font-size: 0.8rem;
+}
+.footer-list ul{
+    list-style-type: none;
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    margin-bottom: 9vw;
+}
+.cookies {
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 50px;
+}
+.cookies p{
+    font-size: 1rem;
+    padding: 1rem 1rem 0px 1rem;
+   
+}
+.cookies a{
+    color: black;
+    margin-right: 1rem;
+    text-decoration: underline;
+}
+.cookies span{
+    background-color: orangered;
+    padding: 0.5rem 1rem 0.6rem 0.9rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    color: white;
+}
+
+.form-con{ 
+    margin-right: 10rem;
+}
+.form-input{
+    border: 1px solid black;
+    background-color: white;
+    width: 24rem;
+    border-radius: 50px;
+
+}
+.form-con span{
+    font-size: 0.8rem;
+
+}
+.form-con .form-input span{
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 1rem 1rem;
+
+        margin-right: 6rem;
+}
+.form-con .form-input p{
+    
+    font-size: 0.6rem;
+    font-weight: 500;
+}
+
+.footer-btn {
+    margin-top: 7rem;
+    margin-left: 13rem;
+    width: 12rem;
+}
+
+   /* hovers *//* hovers *//* hovers *//* hovers *//* hovers *//* hovers */
+.nav-li ul li:hover{
+    color: orangered !important;
+    
+}
+
+
+.list1:hover .fa-1{
+    display: block !important;
+    margin-top: 1rem;
+    position: absolute;
+}
+.list2:hover .fa-2{
+    display: block !important;
+    margin-top: 1rem;
+    position: absolute;
+}
+
+.list3:hover .fa-3{
+    margin-top: 1rem;
+    position: absolute;
+    display: block !important;
+}
+
+.list4:hover .fa-4{
+    display: block !important;
+    margin-top: 1rem;
+    position: absolute;
+}
+
+.list5:hover .fa-5{
+    display: block !important;
+    margin-top: 1rem;
+    position: absolute;
+}
+.nav-footer-content:hover{
+        background-color: rgb(221, 226, 231);
+        border-radius: 50px;
+}
+.read-more:hover{
+    color: white;
+    background-color: orangered;
+    width: fit-content;
+    border-radius: 50px;
+}
+.wlf-footer-content:hover{
+    background-color: rgb(221, 226, 231);
+    border-radius: 50px;
+}
+.ps-side-btn div:hover{
+    color: white;
+    background-color: orangered;
+}
+.priceing-footer-content:hover{
+    background-color: rgb(221, 226, 231);
+    border-radius: 50px;
+}
