@@ -1,0 +1,642 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.row{
+    margin: 0px;
+    padding: 0px;
+}
+.container-fluid{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-image: url(background.jpg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    
+}
+.navbar{
+    color: white;
+    margin-top: 2.4vw;
+}
+.nav-li ul{
+    list-style: none;
+    margin-bottom: 0px;
+
+}
+.nav-li{
+        font-size: 0.8vw;
+        padding: 0px;
+        cursor: pointer;
+
+}
+.nav-li ul li p{
+    margin-bottom: 0px;
+}
+.nav-btn p{
+    background-color: rgb(250, 99, 43);
+    padding: 0.6vw ;
+    border-radius: 2vw;
+    margin-bottom: 0px;
+    color: white;
+    font-weight: 700;
+    width: fit-content;
+    cursor: pointer;
+
+}
+
+
+.nav-content{
+    
+        margin-top: 5vw;
+}
+.nav-con{
+    padding: 0px;
+}
+.nav-text p{
+    font-size: 2.9vw;
+    color: white;
+    margin-bottom: 0px;
+}
+.nav-para p{
+    color: white;
+    font-size: 0.8vw;
+    margin-top: 1.7vw;
+    width: 18vw;
+}
+.first-msg img{
+        height: 2.5vw;
+        position: absolute;
+        width: 2.5vw;
+        top: 8.5vw;
+        left: -3vw;
+        border-radius: 50%;
+}
+.msg-main{
+    margin-top: 10vw;
+    margin-left: -5vw;
+}
+.msges{
+    background-color: purple;
+    color: white;
+    font-size: 0.5vw;
+    width: 17vw;
+    border-radius: 50px 50px  50px 0px;
+}
+.msges2{
+    background-color: rgb(233, 31, 142);
+    color: white;
+    margin-left: 3vw;
+    font-size: 0.5vw;
+    width: 17vw;
+    border-radius: 50px 50px 0px 50px;
+}
+.msges3{
+    background-color:  rgb(250, 99, 43);
+    color: white;
+    margin-left: -1vw;
+    font-size: 0.5vw;
+    width: 17vw;
+    border-radius: 50px 50px 50px 0px;
+}
+.msges p{
+    padding: 1vw 1vw;
+}
+.msges2 p{
+    padding: 1vw 1vw;
+}
+.msges3 p{
+    padding: 1vw 1vw;
+}
+.nav-footer-con{
+    top: 2.5vw;
+    position: relative;
+    border: 1px solid rgb(229, 236, 236);
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    width: 66%;
+}
+.nav-footer-con span{
+    font-size: 0.5vw;
+}
+
+.nav-footer-con p{
+    font-size: 0.9vw;
+    margin-bottom: 0px;
+}
+.nav-footer-content{
+    padding: 1vw 1vw;
+}
+
+.about-us-div{
+    margin-top: 6vw;
+}
+.about-us-con{
+    margin-top: 4vw;
+    margin-bottom: 10vw;
+}
+.about-us-con p{
+    font-size: 2vw;
+    width: 15vw;
+    font-weight: 700;
+}
+.about-us-con span{
+    display: block;
+    font-size: 1.2vw;
+    width: 15vw;
+    margin-bottom: 1vw;
+    font-weight: 700;
+
+}
+.about-us-para p{
+    font-size: 0.8vw;
+    font-weight: 400;
+    width: 23vw;
+}
+.about-us-con .nav-btn{
+    padding: 0px;
+}
+.about-us-con .nav-btn p{
+        font-size: 1vw;
+        width: fit-content;
+}
+.pattr img{
+    position: absolute;
+    height: 22vw;
+    width: 22vw;
+    left: 8.5vw;
+}
+.old-women img{
+    left: -2.5vw;
+    width: 13vw;
+    border-radius: 20px;
+    position: absolute;
+    height: 17vw;
+}
+.yellow-girl img{
+    position: absolute;
+    border-radius: 20px;
+    top: 9vw;
+    left: 12vw;
+    width: 13vw;
+    height: 17vw;
+}
+.young-women img{
+    position: absolute;
+    border-radius: 20px;
+    top: 18vw;
+    left: -6vw;
+    width: 17vw;
+    height: 12vw;
+}
+
+
+.how-its-work-con{
+    background-image: url(pg3-background-min.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.how-its-work-con-content{
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+}
+.how-its-work-con-content-top p{
+    font-size: 2vw;
+}
+.how-its-work-con-content-main{
+    margin-top: 2vw;
+}
+.how-its-work-menu{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-right: 2vw;
+    
+}
+.how-its-work-menu span{
+        font-size: 1.3vw;
+        margin-top: 0.5vw;
+        margin-bottom: 0.5vw;
+}
+.how-its-work-menu .how-its-work-para{
+    font-size: 0.6vw;
+    width: 8vw;
+}
+.read-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7vw;
+    cursor: pointer;
+}
+.read-more p{
+    margin-bottom: 0px;
+    padding: 0.3vw;
+    margin-right: 0.3vw;
+}
+
+.wlf-top-con{
+    margin-top: 3vw;
+    text-align: center;
+}
+.wlf-top-con p{
+    font-size: 1.7vw;
+}
+.why-learning-flow{
+    background-color:rgb(241, 238, 238)  ;
+}
+.wlf-menu{
+    font-size: 1.5vw;
+    margin-top: 5vw;
+    margin-left: 2vw;
+    display: flex;
+    margin-bottom: 10vw;
+    flex-direction: column;
+}
+.wlf-menu span{
+    margin:1vw 0px ;
+    font-size: 1.2vw;
+    width: 10vw;
+}
+.wlf-menu .wlf-para{
+    font-size: 0.7vw;
+    width: 15em;
+}
+.wlf-foot{
+    top: 140vw;
+    left: 25vw;
+    position: absolute;
+}
+.wlf-foot-con {
+    background-color: azure;
+    border: 1px solid rgb(198, 223, 245);
+    border-radius: 50px;
+}
+.wlf-footer-content{
+    padding: 1vw 7vw 0.5vw 3vw;
+}
+.wlf-foot-con .nav-btn{
+    padding: 1vw 3vw 0.5vw 0vw;
+
+}
+.op-content{
+    background-color: rgb(234,235,241);
+    margin-top: 2vw;
+}
+.op-con{
+    margin-top: 6vw;
+    padding: 0px;
+}
+.op-con span{
+        font-weight: 600;
+        font-size: 1vw;
+}
+.op-con p{
+    font-size: 1.5vw;
+    width: fit-content;
+    margin: 2vw 0px;
+    font-weight: 800;
+}
+.op-con .op-para{
+    font-size: 0.8vw;
+    width: 30vw;
+    font-weight: 400;
+    margin: 1vw 0px;
+}
+.op-img img{
+    width: 28.5vw;
+    margin-left: 3vw;
+    margin-top: 7vw;
+    height: 20vw;
+}
+
+.ps-con {
+    background-color: rgb(187, 217, 225);
+}
+
+.ps-con img{
+    opacity: 0.2;
+    margin: 10vw 0px;
+    position: absolute;
+    height: 9vw;
+}
+.ps-main {
+    margin-top: 4vw;
+    margin-left: -6vw;
+   
+}
+.ps-main span{
+    font-weight: 600;
+    font-size: 0.9vw;
+}
+.ps-main i{
+    color: rgb(218, 218, 42);
+    font-size: 0.8vw;
+}
+.ps-main .ps-para{
+    font-weight: 700;
+    font-size: 1.5vw;
+    width: 30vw;
+}
+.ps-con{
+    overflow: hidden;
+}
+.ps-side-content{
+    opacity: 0.2;
+    box-shadow: 0px 0px 5px 1px black;
+    top: 6vw;
+    left: 15vw;
+    position: relative;
+}
+.ps-side-content i{
+    font-size: 0.7vw;
+    color: rgb(218, 218, 42);
+}
+.ps-side-content .ps-side-para{
+    font-weight: 700;
+    font-size: 1vw;
+    width: 20vw;
+}
+.ps-side-content .ps-author{
+    font-size: 0.5vw;
+}
+.ps-side-btn{
+    margin-left: 10vw;
+    margin-bottom: 4vw;
+}
+.ps-side-btn div{
+    font-size: 2vw;
+    margin-top: 10vw;
+    border: 1px solid black;
+    padding: 0.7vw 1.3vw;
+    border-radius: 50px;
+    margin-left: 1vw;
+}
+.price-text {
+    margin-top: 3vw;
+}
+.price-text p{
+    font-size: 3vw;
+    font-weight: 600;
+}
+.price-text span{
+    
+    font-size: 0.7vw;
+    font-weight: 600;
+}
+.price-menu{
+    background: linear-gradient(180deg, rgb(231, 227, 227) 90%, rgba(255,255,255,1) 100%);
+    margin-top: 15vw;
+    
+}
+.bronze{
+    margin-top: -10vw;
+    background-color: rgb(255, 255, 255);
+    height: fit-content;
+    box-shadow: 0px 0px 0px 1px rgb(231, 227, 227);
+    margin-right: 3vw;
+    border-radius: 30px;
+    padding: 2vw 0px 0px 0px;
+}
+.level {
+    font-size: 1vw;
+    border-radius:50px 50px 0px 50px  ;
+    border: 1px solid black;
+    padding: 0.5vw 1vw ;
+    margin-bottom: 1vw;
+}
+.bronze span{
+    font-size: 1.5vw;
+    font-weight: 600;
+    margin-bottom: 1vw;
+}
+.benefits span i{
+        font-size: 1vw;
+        background-color: orangered ;
+        border-radius: 20px 20px 20px 0px;
+        height: fit-content;
+        margin-right: 0.5vw;
+        color: white;
+        padding: 0.5vw;
+}
+.benefits span{
+        display: flex;
+        margin-bottom: 0.5vw;
+        align-items: start;
+        justify-content: start;
+        font-size: 1vw;
+}
+.benefits span p{
+    margin-bottom: 0px;
+    font-weight: 400;
+    width: 11vw;
+}
+.m-b{
+    margin-bottom: 15vw;
+}
+.priceing-foot{
+    position: relative;
+    top: -6vw;
+}
+.priceing-footer-content{
+    margin-right: 10vw;
+    width: 20vw;
+    height: 4vw;
+}
+.priceing-foot-con{
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-top: 1vw;
+    padding: 0.9vw 1vw;
+    
+}
+.p-btn{
+    padding: 0px 1vw;
+}
+.com-logo-menu{
+    margin-left: 2vw;
+}
+.com-logo-menu img{
+    margin-top: 1.5vw;
+    width: 8vw;
+    height: 3vw;
+}
+.amazone{
+    height: 3vw !important; 
+    margin-top: 2vw !important;
+}
+.coca{
+    height: 5vw !important;
+    margin-top: 0.5vw !important;
+}
+.netflix{
+    background: white !important;
+    height: 3vw !important;
+    margin-top: 1.5vw !important;
+}
+.sodex{
+    height: 3vw !important;
+    opacity: 0.5;
+}
+.slack{
+    height: 3vw !important;
+}
+.rating {
+    background-color: orangered;
+    border-radius: 50px 50px 0px 50px;
+    color: white;
+    font-size: 0.7vw;
+    padding: 0.5vw 1vw;
+}
+.footer{
+    background-color: rgb(234,235,241);
+    margin-top: 2vw;
+
+}
+.footer-cols{
+    margin-top: 6vw;
+}
+.footer-comtent img{
+        height: 4vw;
+        margin-bottom: 3vw;
+}
+.footer-comtent .footer-para{
+    font-size: 1vw;
+    margin-bottom: 3vw;
+    font-weight: 600;
+    width: 23vw;
+}
+.footer-comtent .footer-copyright{
+    font-size: 0.7vw;
+    font-weight: 600;
+    width: 23vw;
+    margin-bottom: 0px;
+}
+.footer-comtent span{
+    font-size: 0.6vw;
+}
+.footer-list span{
+    font-size: 0.8vw;
+}
+.footer-list ul{
+    list-style-type: none;
+    margin-top: 3vw;
+    font-size: 1.3vw;
+    margin-bottom: 9vw;
+}
+.cookies {
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 50px;
+}
+.cookies p{
+    font-size: 1vw;
+    padding: 1vw 1vw 0px 1vw;
+   
+}
+.cookies a{
+    color: black;
+    margin-right: 1vw;
+    text-decoration: underline;
+}
+.cookies span{
+    background-color: orangered;
+    padding: 0.5vw 1vw 0.6vw 0.9vw;
+    border-radius: 50px;
+    font-size: 1vw;
+    color: white;
+}
+
+.form-con{ 
+    margin-right: 10vw;
+}
+.form-input{
+    border: 1px solid black;
+    background-color: white;
+    width: 24vw;
+    border-radius: 50px;
+
+}
+.form-con span{
+    font-size: 0.8vw;
+
+}
+.form-con .form-input span{
+        font-size: 1vw;
+        font-weight: 500;
+        padding: 1vw 1vw;
+
+        margin-right: 6vw;
+}
+.form-con .form-input p{
+    
+    font-size: 0.6vw;
+    font-weight: 500;
+}
+
+.footer-btn {
+    margin-top: 7vw;
+    margin-left: 13vw;
+    width: 12vw;
+}
+
+   /* hovers *//* hovers *//* hovers *//* hovers *//* hovers *//* hovers */
+.nav-li ul li:hover{
+    color: orangered !important;
+    
+}
+
+
+.list1:hover .fa-1{
+    display: block !important;
+    margin-top: 1vw;
+    position: absolute;
+}
+.list2:hover .fa-2{
+    display: block !important;
+    margin-top: 1vw;
+    position: absolute;
+}
+
+.list3:hover .fa-3{
+    margin-top: 1vw;
+    position: absolute;
+    display: block !important;
+}
+
+.list4:hover .fa-4{
+    display: block !important;
+    margin-top: 1vw;
+    position: absolute;
+}
+
+.list5:hover .fa-5{
+    display: block !important;
+    margin-top: 1vw;
+    position: absolute;
+}
+.nav-footer-content:hover{
+        background-color: rgb(221, 226, 231);
+        border-radius: 50px;
+}
+.read-more:hover{
+    color: white;
+    background-color: orangered;
+    width: fit-content;
+    border-radius: 50px;
+}
+.wlf-footer-content:hover{
+    background-color: rgb(221, 226, 231);
+    border-radius: 50px;
+}
+.ps-side-btn div:hover{
+    color: white;
+    background-color: orangered;
+}
+.priceing-footer-content:hover{
+    background-color: rgb(221, 226, 231);
+    border-radius: 50px;
+}
